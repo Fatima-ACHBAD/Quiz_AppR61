@@ -9,25 +9,26 @@
     android:layout_marginLeft="20dp"
     android:layout_marginRight="20dp"
     android:gravity="center">
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Quiz 1"
         android:textSize="25sp"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold" />
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q1"/>
+        android:layout_height="230dp"
+        android:src="@drawable/tour" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="A cette intersection, je laisse la priorité à droite :"
-        android:textSize="20sp"
         android:layout_marginBottom="20sp"
-        android:textStyle="bold"/>
+        android:text=" Quelle est la hauteur de la Tour Eiffel ?"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
     <RadioGroup
         android:layout_width="match_parent"
@@ -39,14 +40,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Oui" />
+            android:text="512 m" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Non" />
+            android:text="324 m" />
     </RadioGroup>
     <Button
         android:id="@+id/bNext"
@@ -55,8 +56,8 @@
         android:text="Next"
         android:layout_marginTop="20dp"/>
     <ImageView
-        android:layout_width="50dp"
+        android:layout_width="70dp"
         android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
+        android:src="@drawable/logome"/>
 
 </LinearLayout>

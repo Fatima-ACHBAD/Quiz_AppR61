@@ -19,12 +19,12 @@
         />
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q3"/>
+        android:layout_height="230dp"
+        android:src="@drawable/colisederome"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Avant de partir, je laisse tourner mon moteur pour qu'il monte en température :"
+        android:text="Comment le Colisée de Rome était-il utilisé autrefois ?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -39,14 +39,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Oui" />
+            android:text="pour les matchs de football" />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Non" />
+            android:text="pour les combats de gladiateurs." />
 
     </RadioGroup>
 
@@ -57,8 +57,8 @@
         android:text="Next"
         android:layout_marginTop="20dp"/>
     <ImageView
-        android:layout_width="50dp"
+        android:layout_width="70dp"
         android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
+        android:src="@drawable/logome"/>
 
 </LinearLayout>

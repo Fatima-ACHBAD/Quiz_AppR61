@@ -8,39 +8,34 @@
     android:orientation="vertical"
     android:layout_margin="30dp"
     android:gravity="center">
+
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/logoo"/>
-    <EditText
-        android:layout_marginTop="30dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etName"
-        android:hint="Name"
-        android:drawableLeft="@drawable/baseline_person_24"
-        />
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etMail"
-        android:hint="Email *"
-        android:drawableLeft="@drawable/baseline_mail_24"/>
+        android:layout_height="222dp"
+        android:src="@drawable/logome" />
 
-    <EditText
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etPassword"
-        android:hint="Password *"
-        android:inputType="textPassword"
-        android:drawableLeft="@drawable/baseline_lock_24"/>
-    <EditText
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etMail"
+            android:hint="email"
+            android:drawableLeft="@drawable/baseline_mail_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/etPassword1"
-        android:hint="Confirm password"
-        android:inputType="textPassword"
-        android:drawableLeft="@drawable/baseline_lock_24"/>
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etPassword"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:drawableLeft="@drawable/baseline_lock_24"/>
+    </com.google.android.material.textfield.TextInputLayout>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

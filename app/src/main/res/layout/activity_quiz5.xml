@@ -19,12 +19,13 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:src="@drawable/q5"/>
+        android:layout_height="230dp"
+        android:src="@drawable/tajmahal" />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="En conduisant, je peux utiliser mon portable pour écrire un texto ou composer un numéro :"
+        android:text=" Dans quel but a été construit le Taj Mahal en Inde ?"
         android:textSize="20sp"
         android:layout_marginBottom="20sp"
         android:textStyle="bold"/>
@@ -39,14 +40,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Oui" />
+            android:text="pour servir de tombeau à l’épouse d’un empereur." />
 
         <RadioButton
             android:id="@+id/rb2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Non" />
+            android:text="pour servir de musée" />
 
 
     </RadioGroup>
@@ -58,9 +59,9 @@
         android:text="Next"
         android:layout_marginTop="20dp"/>
     <ImageView
-        android:layout_width="50dp"
+        android:layout_width="70dp"
         android:layout_height="80dp"
-        android:src="@drawable/logoo"/>
+        android:src="@drawable/logome"/>
 
 
 </LinearLayout>
